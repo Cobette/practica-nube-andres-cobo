@@ -11,44 +11,35 @@
       color: #333;
       margin: 0;
       padding: 0;
-    }
-    header {
-      background-color: #0056b3;
-      color: white;
-      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
     }
-    main {
+    .banner {
+      background-color: #0056b3;
+      color: white;
       padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1, p {
+      margin: 0;
     }
     h1 {
-      color: #0056b3;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
     p {
       font-size: 1.2rem;
-      line-height: 1.6;
-    }
-    footer {
-      background-color: #0056b3;
-      color: white;
-      text-align: center;
-      padding: 1rem 0;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
     }
   </style>
 </head> 
 <body>
-  <header>
-    <h1>Unitec - Cómputo en la Nube</h1>
-  </header>
-  <main>
-    <h2>¡Hola!</h2> 
+  <div class="banner">
+    <h1>¡Hola!</h1> 
     <p>Primera práctica de cómputo en la nube</p> 
-  </main>
-  <footer>
-    <p>&copy; 2024 Unitec. Todos los derechos reservados.</p>
-  </footer>
+  </div>
 </body> 
 </html>
